@@ -1,4 +1,4 @@
-package com.Quickstart.ApiData;
+package com.Quickstart.ApiData.topics;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +20,9 @@ public class TopicService {
    ));
 
    public List<Topic> getAllTopics(){
-       //return topics;
        List<Topic> topics = new ArrayList<>();
        topicRepository.findAll()
-                .forEach(topics::add);
+              .forEach(topics::add);
         return topics;
    }
 
@@ -33,7 +32,7 @@ public class TopicService {
 
     public void addTopic(Topic topic) {
        //topics.add(topic);
-        topicRepository.save(topic);
+       // topicRepository.save(topic);
     }
 
     public void updateTopic(String id, Topic topic) {

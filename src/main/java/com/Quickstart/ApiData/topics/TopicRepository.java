@@ -1,9 +1,9 @@
-package com.Quickstart.ApiData;
+package com.Quickstart.ApiData.topics;
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public interface TopicRepository extends CrudRepository <Topic, String> {
 
 }
