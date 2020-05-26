@@ -1,4 +1,4 @@
-package topic;
+package com.Quickstart.ApiData;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

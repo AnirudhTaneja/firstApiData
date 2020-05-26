@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d5cb4f3-8dd6-4734-948e-1e916aac1325" name="Default Changelist" comment="" />
+    <list default="true" id="9d5cb4f3-8dd6-4734-948e-1e916aac1325" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/CourseApiDataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/CourseApiDataApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/topic/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/topic/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/topic/TopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/TopicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/topic/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/TopicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quickstart/ApiData/CourseApiDataApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Quickstart/ApiData/CourseApiDataApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/topic/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/topic/TopicController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/topic/TopicRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/topic/TopicService.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1cPpfAZL609Zj4GxNQv1UlzfB0B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/Quickstart" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
   </component>
@@ -95,13 +114,24 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/topic/TopicService.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/Quickstart/ApiData/TopicService.java</url>
           <line>21</line>
-          <properties class="topic.TopicService" method="getAllTopics">
+          <properties class="com.Quickstart.ApiData.TopicService" method="getAllTopics">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
