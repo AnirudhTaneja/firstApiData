@@ -1,4 +1,4 @@
-package com.Quickstart.ApiData;
+package com.Quickstart.ApiData.topics;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
